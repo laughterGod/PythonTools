@@ -31,8 +31,7 @@ class UserBehaviorMyWeb(TaskSet):
         # json_text = response.text
         # response = self.client.post("/login", {"username": "testuser", "password": "secret"})
         if response.status_code != 200:
-            # response.failure('Failed!')
-            response.failure(response.text)
+            response.failure('Failed!')
         else:
             response.success()
 
@@ -40,5 +39,5 @@ class UserBehaviorMyWeb(TaskSet):
 class WebsiteUserMyweb(HttpLocust):
     # weight = 3
     task_set = UserBehaviorMyWeb
-    host = "http://www.goodlyric.com/xylx/book/list"
+    host = "http://120.92.155.170"
     wait_time = between(1, 2)
