@@ -6,7 +6,8 @@ class UserBehavior(TaskSet):
 
     @task
     def baidu_index(self):
-        response = self.client.get("/", catch_response=True)
+        headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
+        response = self.client.get("/", headers=headers, catch_response=True)
         # json_text = response.text
         # response = self.client.post("/login", {"username": "testuser", "password": "secret"})
         if response.status_code != 200:
