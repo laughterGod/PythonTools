@@ -40,5 +40,5 @@ class UserBehaviorMyWeb(TaskSet):
 class WebsiteUserMyweb(HttpLocust):
     # weight = 3
     task_set = UserBehaviorMyWeb
-    host = "http://120.92.155.170"
+    host = "http://www.goodlyric.com/xylx/book/list"
     wait_time = between(1, 2)
