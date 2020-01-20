@@ -30,6 +30,7 @@ class UserBehaviorMyWeb(TaskSet):
         response = self.client.get("/", catch_response=True)
         # json_text = response.text
         # response = self.client.post("/login", {"username": "testuser", "password": "secret"})
+        print(response.json())
         if response.status_code != 200:
             response.failure('Failed!')
         else:
