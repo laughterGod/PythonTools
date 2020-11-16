@@ -36,7 +36,7 @@ class KopTools():
 # 定义用户行为
 class UserBehavior():
 
-    def toutiao_duanxin(self):
+    def interface_message(self):
         kop_tools = KopTools()
         time_stamp = kop_tools.get_10_current_timestamp()
         body = ""
@@ -49,4 +49,4 @@ class UserBehavior():
 
 if __name__ == '__main__':
     test = UserBehavior()
-    test.toutiao_duanxin()
+    test.interface_message()

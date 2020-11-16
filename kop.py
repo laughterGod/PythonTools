@@ -35,13 +35,13 @@ class KopTools():
 class UserBehavior(TaskSet):
 
     @task
-    def toutiao_duanxin(self):
+    def interface_message(self):
         kop_tools = KopTools()
         time_stamp = kop_tools.get_10_current_timestamp()
         body = ""
         authorization_header = str(time_stamp) + ',' + str(kop_tools.md5_kop(body))
         header = {"Content-Type": "application/json;charset=utf-8", "Authorization": authorization_header}
-        response = self.client.post("/open/sms/send/bytedance", data=body.encode('utf-8'), headers=header, verify=False)
+        response = self.client.post("", data=body.encode('utf-8'), headers=header, verify=False)
         if response.status_code != 200:
             print("fails")
         else:
