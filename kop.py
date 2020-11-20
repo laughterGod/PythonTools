@@ -38,20 +38,20 @@ class UserBehavior(TaskSet):
     def interface_message(self):
         kop_tools = KopTools()
         time_stamp = kop_tools.get_10_current_timestamp()
-        body = ""
+        body = "{}"
         authorization_header = str(time_stamp) + ',' + str(kop_tools.md5_kop(body))
         header = {"Content-Type": "application/json;charset=utf-8", "Authorization": authorization_header}
         response = self.client.post("", data=body.encode('utf-8'), headers=header, verify=False)
         if response.status_code != 200:
-            print("fails")
+            print("fails", response.text)
         else:
-            print("success")
+            print("success", response.text)
 
 
 class WebsiteUser(HttpLocust):
     # weight = 3
     task_set = UserBehavior
-    host = ""
+    host = "https://"
     wait_time = between(0.00001, 3)
 
 

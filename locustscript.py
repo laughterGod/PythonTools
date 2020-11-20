@@ -39,11 +39,10 @@ class UserBehavior():
     def interface_message(self):
         kop_tools = KopTools()
         time_stamp = kop_tools.get_10_current_timestamp()
-        body = ""
+        body = "{}"
         authorization_header = str(time_stamp) + ',' + str(kop_tools.md5_kop(body))
         headers = {"Content-Type": "application/json;charset=utf-8", "Authorization": authorization_header}
-        # response = self.client.post("/open/sms/send/bytedance", data=body, headers=header, verify=False)
-        response = requests.post("", data=body.encode('utf-8'), headers=headers )
+        response = requests.post("https://", data=body.encode('utf-8'), headers=headers )
         print(response.text)
 
 
