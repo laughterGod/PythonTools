@@ -6,7 +6,7 @@ import threading
 from time import sleep
 
 # 性能测试页面
-PERF_TEST_URL = "http://10.100.59.104:8088/qatest/api/measure/ks3?caller=hanzg&uid=2000085575&productType=ks3&start=201901080000&end=201901090000&measureCodes=day_transfer"
+PERF_TEST_URL = "https://jsonview.com/example.json"
 
 # 配置:模拟运行状态
 THREAD_NUM = 10        	# 并发线程总数
