@@ -5,6 +5,7 @@
 import sys
 
 
+# 冒泡
 def bubble_sort(arr):
     length = len(arr)
     for i in range(length-1):
@@ -15,6 +16,7 @@ def bubble_sort(arr):
     return arr
 
 
+# 选择
 def select_sort(arr):
     length = len(arr)
     for i in range(length-1):
@@ -26,6 +28,7 @@ def select_sort(arr):
     return arr
 
 
+# 插入
 def insert_sort(arr):
     length = len(arr)
     for i in range(length):
@@ -38,6 +41,7 @@ def insert_sort(arr):
     return arr
 
 
+# 快速
 def quick_sort(arr, low, high):
     length = len(arr)
     if low >= high:
