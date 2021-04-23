@@ -39,10 +39,10 @@ class UserBehavior():
     def interface_message(self):
         kop_tools = KopTools()
         time_stamp = kop_tools.get_10_current_timestamp()
-        body = "{}"
+        body = "{\"userId\":\"bytedance-test\",\"sign\":\"38c7b3bc78401b23d782831b80d25979\",\"content\":\"【金山云】您的验证码是321你大飒飒大按是否第三方的防水防汗去年第五套人民币50元、20元、10元、1元纸币纷纷上新，最近新版5元纸币也将亮相去年第五套人民币50元、20元、10元、1元纸币纷纷上新，最近新版5元纸币也将亮相　去年第五套人民币50元、20元、10元、1元纸币纷纷上新，最近新版5元纸币也将亮相，您的验证码是321你大飒飒大按是否第三方的防水防汗去年第五套人民币50元、20元、10元、1元纸币纷纷上新，最近新版5元纸币也将亮相去年第五套人民币50元、20元、10元、1元纸币纷纷上新，最近新版5元纸币也将亮相　去年第五套人民币50元、20元、10元、1元纸币纷纷上新，最近新版5元纸币也将亮相\",\"mobile\":\"18518219486\",\"extCode\":\"5\",\"msgId\":\"test123\",\"ext\":\"test1234\",\"sms_scene\":\"1\",\"callback\":\"http://smscenter.sdns.ksyun.com/api/parse\"}"
         authorization_header = str(time_stamp) + ',' + str(kop_tools.md5_kop(body))
         headers = {"Content-Type": "application/json;charset=utf-8", "Authorization": authorization_header}
-        response = requests.post("https://", data=body.encode('utf-8'), headers=headers )
+        response = requests.post("https://ksmsapi.api.ksyun.com/open/sms/send/bytedance", data=body.encode('utf-8'), headers=headers )
         print(response.text)
 
 

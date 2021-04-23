@@ -31,6 +31,7 @@ class KopTools():
         return int(t*1000)
 
 
+
 # 定义用户行为
 class UserBehavior(TaskSet):
 
@@ -38,10 +39,10 @@ class UserBehavior(TaskSet):
     def interface_message(self):
         kop_tools = KopTools()
         time_stamp = kop_tools.get_10_current_timestamp()
-        body = "{}"
+        body = "{\"userId\":\"bytedance-test\",\"sign\":\"38c7b3bc78401b23d782831b80d25979\",\"content\":\"【金山云】您的验证码是321你大飒飒大按是否第三方的防水防汗去年第五套人民币50元、20元、10元、1元纸币纷纷上新，最近新版5元纸币也将亮相去年第五套人民币50元、20元、10元、1元纸币纷纷上新，最近新版5元纸币也将亮相　去年第五套人民币50元、20元、10元、1元纸币纷纷上新，最近新版5元纸币也将亮相，您的验证码是321你大飒飒大按是否第三方的防水防汗去年第五套人民币50元、20元、10元、1元纸币纷纷上新，最近新版5元纸币也将亮相去年第五套人民币50元、20元、10元、1元纸币纷纷上新，最近新版5元纸币也将亮相　去年第五套人民币50元、20元、10元、1元纸币纷纷上新，最近新版5元纸币也将亮相\",\"mobile\":\"18518219486\",\"extCode\":\"5\",\"msgId\":\"test123\",\"ext\":\"test1234\",\"sms_scene\":\"1\",\"callback\":\"http://smscenter.sdns.ksyun.com/api/parse\"}"
         authorization_header = str(time_stamp) + ',' + str(kop_tools.md5_kop(body))
         header = {"Content-Type": "application/json;charset=utf-8", "Authorization": authorization_header}
-        response = self.client.post("", data=body.encode('utf-8'), headers=header, verify=False)
+        response = self.client.post("/open/sms/send/bytedance", data=body.encode('utf-8'), headers=header, verify=False)
         if response.status_code != 200:
             print("fails", response.text)
         else:
@@ -51,7 +52,7 @@ class UserBehavior(TaskSet):
 class WebsiteUser(HttpLocust):
     # weight = 3
     task_set = UserBehavior
-    host = "https://"
+    host = "https://ksmsapi.api.ksyun.com"
     wait_time = between(0.00001, 3)
 
 

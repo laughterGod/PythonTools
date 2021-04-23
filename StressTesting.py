@@ -64,11 +64,10 @@ def main():
     print( "任务数量:", THREAD_NUM, "*", ONE_WORKER_NUM, "=", THREAD_NUM*ONE_WORKER_NUM )
     print( "总耗时(秒):", t2-t1 )
     print( "每次请求耗时(秒):", (t2-t1) / (THREAD_NUM*ONE_WORKER_NUM) )
-    print( "每秒承载请求数:", 1 / ((t2-t1) / (THREAD_NUM*ONE_WORKER_NUM)) )
+    print("每秒承载请求数:", (THREAD_NUM*ONE_WORKER_NUM)/ (t2-t1))
     print( "错误数量:", ERROR_NUM )
 
 
 if __name__ == "__main__":
     main()
-
 
