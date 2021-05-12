@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2430d4-8f05-435f-bba0-8ace6fafcfa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testaiqiyi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdidi2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testaiqiyi.py" beforeDir="false" afterPath="$PROJECT_DIR$/testaiqiyi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,13 +72,13 @@
     <session id="-309054843">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.4" value="10" />
+          <entry key="project.open.time.4" value="12" />
           <entry key="project.open.time.5" value="5" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -85,57 +86,52 @@
           <entry key="ZhifubaoTest" value="2" />
           <entry key="dummy" value="4" />
           <entry key="locustscript" value="1" />
-          <entry key="py" value="4677" />
+          <entry key="py" value="5736" />
           <entry key="test" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="4704" />
+          <entry key="Python" value="5763" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="84" />
+          <entry key="py" value="87" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="84" />
+          <entry key="Python" value="87" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testdidi2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="206">
+              <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
               <folding>
-                <marker date="1619420954776" expanded="true" signature="87:92" ph="..." />
-                <marker date="1619420954776" expanded="true" signature="876:2332" ph="..." />
-                <marker date="1619420954776" expanded="true" signature="1291:2332" ph="..." />
+                <marker date="1620810456065" expanded="true" signature="77:188" ph="..." />
+                <marker date="1620810456065" expanded="true" signature="218:223" ph="..." />
+                <marker date="1620810456065" expanded="true" signature="218:745" ph="..." />
+                <marker date="1620810456065" expanded="true" signature="746:748" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testaiqiyi.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZhifubaoTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding>
-                <marker date="1620737709929" expanded="true" signature="77:82" ph="..." />
-                <marker date="1620737709929" expanded="true" signature="77:802" ph="..." />
-                <marker date="1620737709929" expanded="true" signature="77:803" ph="..." />
-                <marker date="1620737709929" expanded="true" signature="77:804" ph="..." />
-              </folding>
+            <state relative-caret-position="513">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -192,6 +188,7 @@
         <option value="$PROJECT_DIR$/trycath.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/testaiqiyi.py" />
+        <option value="$PROJECT_DIR$/testdidi2.py" />
       </list>
     </option>
   </component>
@@ -201,7 +198,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -216,6 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,7 +225,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,29 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testaiqiyi">
-    <configuration name="Queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonTools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Queue.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.testdidi2">
     <configuration name="ZhifubaoTest" type="PythonConfigurationType" factoryName="Python">
       <module name="PythonTools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -347,6 +322,9 @@
       <module name="PythonTools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -366,6 +344,9 @@
       <module name="PythonTools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -373,6 +354,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testaiqiyi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testdidi2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonTools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testdidi2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -406,18 +406,18 @@
     <list>
       <item itemvalue="Python.ZhifubaoTest" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.Queue" />
       <item itemvalue="Python.trycath" />
       <item itemvalue="Python.queueTest" />
       <item itemvalue="Python.testaiqiyi" />
+      <item itemvalue="Python.testdidi2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testdidi2" />
         <item itemvalue="Python.testaiqiyi" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.trycath" />
         <item itemvalue="Python.queueTest" />
-        <item itemvalue="Python.Queue" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +438,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989733" visible="true" weight="0.26626325" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989733" visible="true" weight="0.1452345" />
       <window_info id="Structure" order="1" sideWeight="0.5010267" side_tool="true" weight="0.3419062" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -452,8 +452,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.298441" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.4334471" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33105803" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.38054606" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -656,9 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#47#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,13 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
           <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZhifubaoTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -721,7 +711,7 @@
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <marker date="1619420954776" expanded="true" signature="87:92" ph="..." />
             <marker date="1619420954776" expanded="true" signature="876:2332" ph="..." />
@@ -732,13 +722,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testaiqiyi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="214">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
-            <marker date="1620737709929" expanded="true" signature="77:82" ph="..." />
-            <marker date="1620737709929" expanded="true" signature="77:802" ph="..." />
-            <marker date="1620737709929" expanded="true" signature="77:803" ph="..." />
-            <marker date="1620737709929" expanded="true" signature="77:804" ph="..." />
+            <marker date="1620784998431" expanded="true" signature="78:83" ph="..." />
+            <marker date="1620784998431" expanded="true" signature="78:803" ph="..." />
+            <marker date="1620784998431" expanded="true" signature="78:804" ph="..." />
+            <marker date="1620784998431" expanded="true" signature="78:805" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhifubaoTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdidi2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <marker date="1620810456065" expanded="true" signature="77:188" ph="..." />
+            <marker date="1620810456065" expanded="true" signature="218:223" ph="..." />
+            <marker date="1620810456065" expanded="true" signature="218:745" ph="..." />
+            <marker date="1620810456065" expanded="true" signature="746:748" ph="..." />
           </folding>
         </state>
       </provider>

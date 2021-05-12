@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # --*-- coding:utf-8 --*--
 
+
 def testArr(arr_A, arr_B):
     if len(arr_A) == 0:
         return arr_B
