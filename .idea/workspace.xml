@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2430d4-8f05-435f-bba0-8ace6fafcfa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tools/csv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/csv2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/excel2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/all.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_testcase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_testcase/all.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_testcase/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_testcase/test_product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/aaalogin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/all.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test_product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_testcase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_testcase/all.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_testcase/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_testcase/test_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools/randomname.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonTools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonTools.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmianshi.py" beforeDir="false" afterPath="$PROJECT_DIR$/testmianshi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,8 +79,8 @@
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="14" />
-          <entry key="project.open.time.5" value="5" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.open.time.5" value="6" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -105,33 +89,33 @@
           <entry key="dummy" value="4" />
           <entry key="ini" value="135" />
           <entry key="locustscript" value="1" />
-          <entry key="py" value="7425" />
+          <entry key="py" value="7434" />
           <entry key="test" value="24" />
           <entry key="testdidi2" value="7" />
-          <entry key="txt" value="67" />
+          <entry key="txt" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="135" />
-          <entry key="PLAIN_TEXT" value="71" />
-          <entry key="Python" value="7459" />
+          <entry key="PLAIN_TEXT" value="88" />
+          <entry key="Python" value="7468" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
           <entry key="ini" value="1" />
-          <entry key="py" value="133" />
-          <entry key="txt" value="10" />
+          <entry key="py" value="134" />
+          <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
           <entry key="Ini" value="1" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="133" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="134" />
         </counts>
       </usages-collector>
     </session>
@@ -178,7 +162,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tools/csv.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -187,10 +171,31 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tools/randomname.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+              <folding>
+                <element signature="e#39#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tools/a.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tools/csv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
+            <state relative-caret-position="552">
               <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
               <folding>
                 <element signature="e#39#49#0" expanded="true" />
@@ -277,6 +282,8 @@
         <option value="$PROJECT_DIR$/Tools/csv2.py" />
         <option value="$PROJECT_DIR$/testmianshi.py" />
         <option value="$PROJECT_DIR$/Tools/csv.py" />
+        <option value="$PROJECT_DIR$/Tools/a.txt" />
+        <option value="$PROJECT_DIR$/Tools/randomname.py" />
       </list>
     </option>
   </component>
@@ -325,7 +332,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../feed-quality" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -349,7 +356,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.csv">
+  <component name="RunManager" selected="Python.randomname">
     <configuration name="ZhifubaoTest" type="PythonConfigurationType" factoryName="Python">
       <module name="PythonTools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -386,28 +393,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="all (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonTools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -482,6 +467,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="randomname" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonTools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools/randomname.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="testmianshi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonTools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -506,19 +510,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.ZhifubaoTest" />
-      <item itemvalue="Python.all (1)" />
       <item itemvalue="Python.excel2" />
       <item itemvalue="Python.csv" />
       <item itemvalue="Python.csv2" />
       <item itemvalue="Python.testmianshi" />
+      <item itemvalue="Python.randomname" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.randomname" />
         <item itemvalue="Python.csv" />
         <item itemvalue="Python.testmianshi" />
         <item itemvalue="Python.csv2" />
         <item itemvalue="Python.excel2" />
-        <item itemvalue="Python.all (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -539,7 +543,7 @@
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989733" visible="true" weight="0.15138593" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989733" visible="true" weight="0.15298508" />
       <window_info id="Structure" order="1" sideWeight="0.5010267" side_tool="true" weight="0.3419062" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -553,8 +557,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2037862" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.17817372" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30289534" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.31069043" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -570,14 +574,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example_1.txt" />
-    <entry file="file://C:/Program Files/Python37/Lib/site-packages/requests/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="601" column="16" selection-start-line="601" selection-start-column="16" selection-end-line="601" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python37/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -889,7 +885,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tools/csv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
+        <state relative-caret-position="552">
           <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
           <folding>
             <element signature="e#39#49#0" expanded="true" />
@@ -897,10 +893,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tools/csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/randomname.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="e#39#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
