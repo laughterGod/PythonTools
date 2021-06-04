@@ -44,7 +44,12 @@ def testarr(a, b):
 
 
 if __name__ == '__main__':
-    a = [-100, 1, 10, 100]
-    b = [0, 1, 5, 1000]
+    # a = [-100, 1, 10, 100]
+    # b = [0, 1, 5, 1000]
     # print(testsushu(1000, 10000))
-    print(testarr(a, b))
+    # print(testarr(a, b))
+    # assert 2 == 1, 'a'
+    strA = 'bchdyfgr'
+    listA = ['bchdyfgr', 'ppppp', 'kkkkkk']
+    result = ' '.join(listA)
+    print(result)
